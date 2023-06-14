@@ -8,7 +8,39 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Testemonils Grid Section</title>
 	</head>
-	<body>
-		<h1 class="text-4xl">Simple Tailwind Setup</h1>
+	<body class="bg-gray-200">
+		<!-- Global Container -->
+		<div class="container mx-auto max-w-7xl p-2 md:p-10">
+			<!-- Grid Container -->
+			<div class="text-white">
+				<!-- Box 1 -->
+				<div class="reflative rounded-xl bg-purple-700 p-10">
+					<!-- Quotes -->
+					<img
+						src="./assets/bg-pattern-quotation.svg"
+						class="absolute right-10 top-3 scale-125 md:right-24 md:top-7 md:scale-150"
+						alt="Quotation mark"
+					/>
+					<!-- Box Header -->
+					<header class="z-10 flex space-x-4">
+						<img src="./assets/image-daniel.jpg" class="h-10 w-10 rounded-full ring-2 ring-purple-300" alt="Profile picture" />
+						<div class="text-sm">
+							<p class="opacity-90">Daniel Clifford</p>
+							<p class="opacity-50">Verified Graduate</p>
+						</div>
+					</header>
+					<!-- Large Text -->
+					<p class="relative z-10 mt-6 text-xl">
+						I received a job offer min-course, and the subjects I learned were current, if not more so, in the company I joined. I
+						honestly feel I got every penny's worth.
+					</p>
+					<!-- Small Text -->
+					<p class="mt-6 opacity-50">
+						"I was an EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heared some people
+						who had an amazing experience here. I signed up for the free"
+					</p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
